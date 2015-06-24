@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 
 requires = [
     'django',
+    'psycopg2',
 ]
 
 setup(
