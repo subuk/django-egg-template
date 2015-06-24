@@ -6,6 +6,9 @@ requires = [
     'psycopg2',
 ]
 
+develop_requires = [
+]
+
 setup(
     name='{{ project_name }}',
     version='0.1',
@@ -13,6 +16,9 @@ setup(
     package_dir={'': 'src'},
     include_package_data=True,
     install_requires=requires,
+    extras_require={
+        'develop': develop_requires,
+    },
     zip_safe=False,
     entry_points={
         'console_scripts': [
