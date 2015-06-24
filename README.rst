@@ -1,7 +1,7 @@
 
 Template for django startproject command:
 
-https://docs.djangoproject.com/en/1.4/ref/django-admin/#django-admin-startproject
+https://docs.djangoproject.com/en/1.8/ref/django-admin/#django-admin-startproject
 
 Usage:
 
